@@ -51,4 +51,4 @@ There are two additional options:
 
 Here's an example of how I've used this in the wild:
 
-<picture>
+![Example](https://github.com/tylernathanreed/nova-textwrap-field/blob/master/docs/example.png "Example")
