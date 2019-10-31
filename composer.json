@@ -1,0 +1,32 @@
+{
+    "name": "reedware/nova-textwrap-field",
+    "description": "Adds a text field with wrapping capabilities to Laravel Nova.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "text",
+        "textarea",
+        "wrap"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reedware\\NovaTextWrapField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reedware\\NovaTextWrapField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
